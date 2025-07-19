@@ -382,7 +382,7 @@ let musicPlaying = false;
 
 musicToggle.addEventListener('click', () => {
     if (!musicAudio) {
-        musicAudio = new Audio('sounds/onmywway.mp3');
+        musicAudio = new Audio('sounds/Onmywway.mp3');
         musicAudio.loop = true;
         musicAudio.volume = 0.5;
     }
