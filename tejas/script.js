@@ -166,21 +166,7 @@ document.querySelectorAll('a').forEach(link => {
     });
 });
 
-// Animated counter for About Me stats
-function animateCounter(element, target, duration = 1200) {
-    let start = 0;
-    const increment = target / (duration / 16);
-    function update() {
-        start += increment;
-        if (start < target) {
-            element.textContent = Math.floor(start) + (element.dataset.suffix || '');
-            requestAnimationFrame(update);
-        } else {
-            element.textContent = target + (element.dataset.suffix || '');
-        }
-    }
-    update();
-}
+
 
 function handleStatsAnimation() {
     const stats = document.querySelectorAll('.stat-item .number');
