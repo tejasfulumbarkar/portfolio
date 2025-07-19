@@ -1068,3 +1068,47 @@ footer {
         white-space: nowrap;
     }
 } 
+
+.project-img-glow {
+    box-shadow: 0 0 0 4px rgba(10,147,150,0.25), 0 0 18px 6px var(--accent-color), 0 0 32px 8px var(--primary-color);
+    background: #001219;
+    transition: box-shadow 0.3s;
+}
+.project-card:hover .project-img-glow {
+    box-shadow: 0 0 0 6px var(--accent-color), 0 0 32px 12px var(--primary-color), 0 0 48px 16px var(--accent-color);
+} 
+
+.about-label {
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 0.4em 1.2em;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px 0 var(--primary-color), 0 0 8px var(--accent-color);
+    letter-spacing: 0.02em;
+    z-index: 3;
+    opacity: 0.97;
+    pointer-events: none;
+    user-select: none;
+    text-shadow: 0 2px 8px #fff8, 0 0 2px #0008;
+    border: 2px solid var(--accent-color);
+    color: #fff;
+}
+.about-label-top {
+    top: 16px;
+    left: 16px;
+    right: auto;
+    transform: none;
+    background: linear-gradient(120deg, #0A9396 60%, #005F73 100%);
+    border-color: #0A9396;
+}
+.about-label-bottom {
+    bottom: 16px;
+    right: 16px;
+    left: auto;
+    transform: none;
+    background: linear-gradient(120deg, #EE9B00 60%, #CA6702 100%);
+    border-color: #EE9B00;
+    font-size: 1.08rem;
+} 
