@@ -1048,3 +1048,23 @@ footer {
     color: var(--accent-color);
     border-color: var(--accent-color);
 } 
+
+
+@media (max-width: 900px) {
+    .theme-toggle, .music-toggle {
+        width: 34px;
+        height: 34px;
+        min-width: 34px;
+        min-height: 34px;
+        font-size: 1.3rem;
+    }
+    .theme-toggle-group {
+        gap: 0.1rem;
+    }
+    .logo {
+        font-size: 1rem;
+        letter-spacing: 0.01em;
+        padding: 0 0.2rem;
+        white-space: nowrap;
+    }
+} 
