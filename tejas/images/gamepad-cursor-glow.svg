@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="2" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+    </defs>
+    <path d="M24 6C14.059 6 6 14.059 6 24C6 33.941 14.059 42 24 42C33.941 42 42 33.941 42 24C42 14.059 33.941 6 24 6ZM24 39C15.729 39 9 32.271 9 24C9 15.729 15.729 9 24 9C32.271 9 39 15.729 39 24C39 32.271 32.271 39 24 39Z" fill="#00FF9D" filter="url(#glow)"/>
+    <path d="M18 18H21V21H18V18Z" fill="#00FF9D" filter="url(#glow)"/>
+    <path d="M27 18H30V21H27V18Z" fill="#00FF9D" filter="url(#glow)"/>
+    <path d="M21 24H27V27H21V24Z" fill="#00FF9D" filter="url(#glow)"/>
+</svg> 
