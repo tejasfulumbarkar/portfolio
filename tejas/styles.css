@@ -169,7 +169,7 @@ body::before {
 /* Hero Stats */
 .hero-stats {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin-bottom: 2.5rem;
     justify-content: flex-start;
 }
