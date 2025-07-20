@@ -373,8 +373,8 @@ body::before {
     position: absolute;
     left: 50%;
     top: 26%;
-    width: 380px;
-    height: 380px;
+    width: 340px;
+    height: 340px;
     border: 3px solid var(--primary-color);
     border-radius: 50%;
     animation: rotate 20s linear infinite;
